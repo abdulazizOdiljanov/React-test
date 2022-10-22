@@ -1,0 +1,28 @@
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.header ul {
+  display: flex;
+  list-style: none;
+  gap: 33px;
+}
+
+.header__container .header__logo img {
+  width: 236px;
+}
+
+.header__container li a {
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+}
+
+.header__container li a:hover {
+  color: #000;
+}

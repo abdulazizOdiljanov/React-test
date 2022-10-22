@@ -1,0 +1,27 @@
+.collection__container {
+  padding-top: 150px;
+  background-image: url(../../images/collections/collections.png);
+  background-position-x: 50%;
+  background-repeat: no-repeat;
+}
+
+.collection .cards {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+
+.collection .card {
+  text-align: center;
+}
+
+/* .collection .card .card__img {
+} */
+
+.collection .card .card__title {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+/* .collection .card .card__desc {
+} */

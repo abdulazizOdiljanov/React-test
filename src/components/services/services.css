@@ -1,0 +1,41 @@
+.service__container {
+    margin-top: 100px;
+}
+
+.service__main {
+    background-color: #2C343E;
+    max-height: 577px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.service__main .service__title--text {
+    padding-top: 121px;
+}
+
+.service__main .service__desc--text {
+    margin: 30px 350px ;
+    margin-bottom: 60px;
+}
+
+.service__main .sevice__cards {
+    padding: 0 80px;
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.service__container .card {
+    max-width: 350px;
+    min-height: 350px;
+    border-radius: 8px;
+    padding: 80px 40px 0 40px;
+    list-style: none;
+    background-color: #0E8784;
+}
+
+.service__main .card h3 {
+    padding: 40px 0;
+    font-size: 20px;
+}
